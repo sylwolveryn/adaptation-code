@@ -12,6 +12,7 @@
       "matches": [
         "https://telescope.epam.com/*"
       ],
+	  "run_at": "document_end",
       "js": [
         "NameExtractor.js"
       ]
