@@ -1,0 +1,11 @@
+{
+  "name": "adaptation-code",
+  "description": "Code adaptation",
+  "keywords": [
+    "go",
+	"adaptation",
+	"code"
+  ],
+  "website": "http://github.com/heroku/go-getting-started",
+  "repository": "http://github.com/heroku/go-getting-started"
+}
