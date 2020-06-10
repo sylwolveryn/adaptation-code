@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "Adaptation-code",
+  "version": "0.1",
+  "author": "Marcell Neszt",
+  "description": "Adaptation code",
+  "permissions": [
+    ""
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://telescope.epam.com/*"
+      ],
+      "js": [
+        "NameExtractor.js"
+      ]
+    }
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "browser_action": {
+    "default_icon": "logo.png",
+    "default_popup": "index.html",
+    "default_title": "A tooltip popup description when you hover over the Chrome Extension icon."
+  }
+}
